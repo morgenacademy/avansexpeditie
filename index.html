@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expeditieberg | Bouwen aan expedities</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="experience">
+      <header class="intro">
+        <p class="eyebrow">Avans expedities</p>
+        <h1>Een berg voor elke nieuwe expeditie</h1>
+        <p class="intro-text">
+          Geen gewone projectsite, maar een levende expeditiekaart. Onderaan
+          kies je het vraagstuk, stel je de expeditieploeg samen en pak je de vlag. Daarna
+          kader en contracteer je met de groep wat deze expeditie wel en niet is. Daarna werk je
+          niet lineair van ontwerp naar pilot en dan pas leren, maar klim je vijf jaren lang in
+          kleine rondes omhoog: elk jaar is een pilot waarin ontwerpen, proberen, leren en
+          bijstellen samenkomen. Tegelijk start er elk jaar weer een nieuwe expeditie op een ander
+          onderwerp, dus je beklimt nooit maar een enkele berg. Na vijf jaar stopt elke expeditie
+          altijd, ook als de top nog niet is bereikt.
+        </p>
+      </header>
+
+      <section class="mountain-world" aria-label="Interactieve expeditieberg">
+        <div class="sky-layer"></div>
+        <div class="sun-halo"></div>
+        <div class="range range-left"></div>
+        <div class="range range-right"></div>
+        <div class="mountain"></div>
+        <div class="snow-cap"></div>
+        <aside class="expedition-horizon" aria-label="Jaarlijks opvolgende expedities">
+          <div class="expedition-horizon-copy">
+            <span>Jaar na jaar</span>
+            <strong>Nieuwe expedities vormen samen een bergketen</strong>
+            <p>
+              Deze berg is er een van velen: terwijl deze route doorloopt, start elk jaar onderaan
+              ook een nieuwe beklimming op een ander onderwerp.
+            </p>
+          </div>
+          <div class="expedition-chain" aria-hidden="true">
+            <div class="future-peak future-peak-current">
+              <span class="future-peak-year">Nu</span>
+              <strong>Deze expeditie</strong>
+              <small>Huidig thema</small>
+            </div>
+            <div class="future-peak future-peak-next">
+              <span class="future-peak-year">Volgend jaar</span>
+              <strong>Nieuwe expeditie</strong>
+              <small>Ander onderwerp</small>
+            </div>
+            <div class="future-peak future-peak-later">
+              <span class="future-peak-year">Jaar erop</span>
+              <strong>Nog een berg</strong>
+              <small>Nieuw vraagstuk</small>
+            </div>
+            <div class="future-peak future-peak-later-alt">
+              <span class="future-peak-year">Daarna</span>
+              <strong>Volgende expeditie</strong>
+              <small>Nieuwe route</small>
+            </div>
+          </div>
+        </aside>
+        <div class="totem stamped" data-open-panel="totem">
+          <span class="totem-mark">De vlag</span>
+          <strong>De vlag op de top</strong>
+          <small>De why die iedereen herkent</small>
+        </div>
+
+        <svg class="route" viewBox="0 0 1000 900" aria-hidden="true">
+          <path
+            d="M 160 858
+               C 206 822, 246 784, 286 736
+               C 324 690, 360 642, 394 592
+               C 430 540, 466 488, 502 434
+               C 534 384, 556 334, 566 282
+               C 574 230, 570 180, 550 132"
+            pathLength="100"
+          />
+          <path
+            class="route-descend"
+            d="M 550 132
+               C 590 166, 626 222, 654 294
+               C 682 366, 706 448, 724 540"
+            pathLength="100"
+          />
+        </svg>
+
+        <button class="camp camp-start active stamped" data-camp="start">
+          <span class="camp-step">Startpunt</span>
+          <strong>Kies de expeditie</strong>
+        </button>
+        <button class="campfire-node campfire-start" type="button" data-open-panel="campfire">
+          <span class="campfire-icon">Camp</span>
+          <strong>Kampvuur</strong>
+        </button>
+        <button class="camp camp-zero stamped" data-camp="camp-zero">
+          <span class="camp-step">Camp 0</span>
+          <strong>Start het jaarritme</strong>
+        </button>
+        <button class="campfire-node campfire-zero" type="button" data-open-panel="campfire">
+          <span class="campfire-icon">Camp</span>
+          <strong>Kampvuur</strong>
+        </button>
+        <button class="camp camp-ploeg stamped" data-camp="camp-one">
+          <span class="camp-step">Camp 1</span>
+          <strong>Kaderen en contracteren</strong>
+        </button>
+        <button class="campfire-node campfire-one" type="button" data-open-panel="campfire">
+          <span class="campfire-icon">Camp</span>
+          <strong>Kampvuur</strong>
+        </button>
+        <button class="camp camp-year-one stamped" data-camp="year-one">
+          <span class="camp-step">Jaar 1</span>
+          <strong>Pilot jaar 1</strong>
+        </button>
+        <button class="campfire-node campfire-year-one" type="button" data-open-panel="campfire">
+          <span class="campfire-icon">Camp</span>
+          <strong>Kampvuur</strong>
+        </button>
+        <button class="camp camp-year-two stamped" data-camp="year-two">
+          <span class="camp-step">Jaar 2</span>
+          <strong>Pilot jaar 2</strong>
+        </button>
+        <button class="campfire-node campfire-year-two" type="button" data-open-panel="campfire">
+          <span class="campfire-icon">Camp</span>
+          <strong>Kampvuur</strong>
+        </button>
+        <button class="camp camp-year-three stamped" data-camp="year-three">
+          <span class="camp-step">Jaar 3</span>
+          <strong>Pilot jaar 3</strong>
+        </button>
+        <button class="campfire-node campfire-year-three" type="button" data-open-panel="campfire">
+          <span class="campfire-icon">Camp</span>
+          <strong>Kampvuur</strong>
+        </button>
+        <button class="camp camp-year-four stamped" data-camp="year-four">
+          <span class="camp-step">Jaar 4</span>
+          <strong>Pilot jaar 4</strong>
+        </button>
+        <button class="campfire-node campfire-year-four" type="button" data-open-panel="campfire">
+          <span class="campfire-icon">Camp</span>
+          <strong>Kampvuur</strong>
+        </button>
+        <button class="camp camp-year-five stamped" data-camp="year-five">
+          <span class="camp-step">Jaar 5</span>
+          <strong>Pilot jaar 5</strong>
+        </button>
+        <button class="campfire-node campfire-year-five" type="button" data-open-panel="campfire">
+          <span class="campfire-icon">Camp</span>
+          <strong>Kampvuur</strong>
+        </button>
+        <button class="camp camp-summit stamped" data-camp="summit">
+          <span class="camp-step">Na 5 jaar</span>
+          <strong>Rond af waar je dan staat</strong>
+        </button>
+        <button class="campfire-node campfire-summit" type="button" data-open-panel="campfire">
+          <span class="campfire-icon">Camp</span>
+          <strong>Kampvuur</strong>
+        </button>
+
+        <button class="rhythm-panel" type="button" data-open-panel="rhythm">
+          <p class="rhythm-title">Samen op weg rond de student</p>
+          <div class="rhythm-track">
+            <span>Onderwijs</span>
+            <div class="beats beats-education">
+              <i></i><i></i><i></i><i></i><i></i>
+            </div>
+          </div>
+          <div class="rhythm-track">
+            <span>Onderzoek</span>
+            <div class="beats beats-research">
+              <i></i><i></i><i></i>
+            </div>
+          </div>
+          <div class="rhythm-track">
+            <span>Werkveld</span>
+            <div class="beats beats-region">
+              <i></i><i></i><i></i><i></i>
+            </div>
+          </div>
+        </button>
+
+        <aside class="story-panel" aria-live="polite">
+          <div class="story-head">
+            <button class="panel-close" type="button" data-close-panel="story" aria-label="Sluit informatiepaneel">×</button>
+            <p class="eyebrow" id="panel-kicker">Startpunt</p>
+            <h2 id="panel-title">Hier kies je welke expeditie de berg op mag</h2>
+            <p id="panel-text">
+              De berg begint niet met alle details van de route, maar met een
+              scherpe keuze: welk maatschappelijk vraagstuk is groot genoeg,
+              urgent genoeg en betekenisvol genoeg om echt expeditie te worden?
+            </p>
+          </div>
+
+          <div class="story-columns">
+            <section>
+              <h3 id="panel-actions-title">Wat moet hier gebeuren?</h3>
+              <ul id="panel-actions"></ul>
+            </section>
+            <section>
+              <h3 id="panel-why-title">Waarom is dit belangrijk?</h3>
+              <ul id="panel-why"></ul>
+            </section>
+            <section>
+              <h3 id="panel-roles-title">Wie zijn hier belangrijk?</h3>
+              <ul id="panel-roles"></ul>
+            </section>
+            <section>
+              <h3 id="panel-risk-title">Wat gaat mis als dit ontbreekt?</h3>
+              <p id="panel-risk"></p>
+            </section>
+            <section class="panel-example">
+              <h3 id="panel-example-title">Voorbeeld: energietransitie</h3>
+              <p id="panel-example"></p>
+            </section>
+          </div>
+        </aside>
+      </section>
+
+      <nav class="expedition-nav" aria-label="Expeditiestops">
+        <button data-camp-target="start">Startpunt</button>
+        <button data-camp-target="camp-zero">Camp 0</button>
+        <button data-camp-target="camp-one">Camp 1</button>
+        <button data-camp-target="year-one">Jaar 1</button>
+        <button data-camp-target="year-two">Jaar 2</button>
+        <button data-camp-target="year-three">Jaar 3</button>
+        <button data-camp-target="year-four">Jaar 4</button>
+        <button data-camp-target="year-five">Jaar 5</button>
+        <button data-camp-target="totem">De vlag</button>
+        <button data-camp-target="summit">Na 5 jaar</button>
+      </nav>
+
+      <section class="route-index" aria-label="Index van de expeditieroute">
+        <div class="route-index-copy">
+          <p class="eyebrow">Index van de Route</p>
+          <h2>Van keuze naar ritme naar vijf pilots</h2>
+          <p>
+            Deze route loopt in een vaste volgorde. Eerst kies je het vraagstuk, daarna kader en
+            zet je in Camp 0 het jaarritme neer: hoe een expeditiejaar start, leert, afrondt en
+            opnieuw begint. Daarna kader en contracteer je in Camp 1 hoe de expeditieploeg dat ritme
+            samen gaat invullen. Pas daarna klim je door
+            vijf opeenvolgende pilotjaren. Elk jaar bouwt inhoudelijk voort op het vorige: van een
+            eerste proef naar aanscherpen, naar een herkenbare methode, naar verbreden en uiteindelijk
+            naar overdraagbaar maken. Na jaar 5 rond je bewust af, borg je wat werkt en geef je door
+            wat een vervolgexpeditie nodig heeft.
+          </p>
+        </div>
+
+        <div class="route-index-steps">
+          <div class="route-chip"><span>Startpunt</span><strong>Kies de expeditie</strong></div>
+          <div class="route-chip"><span>Camp 0</span><strong>Start het jaarritme</strong></div>
+          <div class="route-chip"><span>Camp 1</span><strong>Kaderen en contracteren</strong></div>
+          <div class="route-chip"><span>Jaar 1</span><strong>Eerste pilot</strong></div>
+          <div class="route-chip"><span>Jaar 2</span><strong>Aanscherpen</strong></div>
+          <div class="route-chip"><span>Jaar 3</span><strong>Herkenbare methode</strong></div>
+          <div class="route-chip"><span>Jaar 4</span><strong>Verbreden en verdiepen</strong></div>
+          <div class="route-chip"><span>Jaar 5</span><strong>Overdraagbaar maken</strong></div>
+          <div class="route-chip route-chip-finish"><span>Na 5 jaar</span><strong>Afronden en doorgeven</strong></div>
+        </div>
+      </section>
+
+      <section class="character-roster">
+        <div class="roster-copy">
+          <p class="eyebrow">Wie Gaan Er Mee Op Reis?</p>
+        </div>
+        <section class="character-deck">
+
+          <button class="character-card active" data-skill="kompasgroep">
+            <span class="character-figure figure-kompasgroep">
+              <svg viewBox="0 0 92 116" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <!-- Back left figure -->
+                <circle cx="25" cy="36" r="8" fill="#183640" opacity="0.42"/>
+                <rect x="17" y="46" width="16" height="20" rx="5" fill="#215863" opacity="0.42"/>
+                <!-- Back right figure -->
+                <circle cx="67" cy="36" r="8" fill="#183640" opacity="0.42"/>
+                <rect x="59" y="46" width="16" height="20" rx="5" fill="#215863" opacity="0.42"/>
+                <!-- Front center figure -->
+                <circle cx="46" cy="29" r="13" fill="#183640"/>
+                <rect x="34" y="44" width="24" height="28" rx="8" fill="#215863"/>
+                <!-- Compass rose -->
+                <circle cx="46" cy="93" r="18" fill="rgba(255,255,255,0.82)"/>
+                <polygon points="46,78 49.5,91 46,89 42.5,91" fill="#df7440"/>
+                <polygon points="46,108 42.5,95 46,97 49.5,95" fill="#183640" opacity="0.6"/>
+                <polygon points="31,93 44,96.5 42,93 44,89.5" fill="#183640" opacity="0.4"/>
+                <polygon points="61,93 48,89.5 50,93 48,96.5" fill="#183640" opacity="0.4"/>
+                <circle cx="46" cy="93" r="3.5" fill="#183640"/>
+              </svg>
+            </span>
+            <strong>Kompasgroep</strong>
+            <small>Vaste squad</small>
+          </button>
+
+          <button class="character-card" data-skill="expeditieleider">
+            <span class="character-figure figure-expeditieleider">
+              <svg viewBox="0 0 92 116" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <!-- Flag pole -->
+                <rect x="67" y="18" width="3" height="44" rx="1.5" fill="#183640"/>
+                <!-- Flag -->
+                <polygon points="70,18 92,27 70,36" fill="#df7440"/>
+                <!-- Crown -->
+                <polygon points="32,22 36,34 46,28 56,34 60,22 54,29 46,24 38,29" fill="#f1bf69"/>
+                <!-- Head -->
+                <circle cx="45" cy="44" r="13" fill="#183640"/>
+                <!-- Arm to flag -->
+                <path d="M58,53 C63,46 67,40 69,33" stroke="#183640" stroke-width="8" stroke-linecap="round" fill="none"/>
+                <!-- Body -->
+                <rect x="32" y="59" width="26" height="34" rx="9" fill="#df7440"/>
+                <!-- Left arm -->
+                <rect x="19" y="61" width="14" height="8" rx="4" fill="#183640"/>
+                <!-- Legs -->
+                <rect x="34" y="90" width="10" height="22" rx="5" fill="#183640"/>
+                <rect x="46" y="90" width="10" height="22" rx="5" fill="#183640"/>
+              </svg>
+            </span>
+            <strong>Expeditieleider</strong>
+            <small>Vaste squad</small>
+          </button>
+
+          <button class="character-card" data-skill="transitiegids">
+            <span class="character-figure figure-transitiegids">
+              <svg viewBox="0 0 92 116" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <!-- Stars / sparkles -->
+                <circle cx="17" cy="22" r="2.5" fill="#f1bf69" opacity="0.85"/>
+                <circle cx="26" cy="11" r="1.8" fill="#f1bf69" opacity="0.65"/>
+                <circle cx="75" cy="15" r="2.2" fill="#f1bf69" opacity="0.75"/>
+                <circle cx="82" cy="27" r="1.5" fill="#f1bf69" opacity="0.5"/>
+                <!-- Lantern -->
+                <rect x="63" y="37" width="18" height="22" rx="5" fill="#f1bf69" opacity="0.92"/>
+                <rect x="67" y="33" width="10" height="6" rx="2" fill="#183640"/>
+                <circle cx="72" cy="48" r="6" fill="rgba(241,191,105,0.45)"/>
+                <!-- Head -->
+                <circle cx="44" cy="39" r="13" fill="#183640"/>
+                <!-- Arm to lantern -->
+                <path d="M57,51 C61,46 64,42 63,40" stroke="#183640" stroke-width="8" stroke-linecap="round" fill="none"/>
+                <!-- Body -->
+                <rect x="31" y="54" width="26" height="34" rx="9" fill="#745a8a"/>
+                <!-- Left arm -->
+                <rect x="18" y="56" width="14" height="8" rx="4" fill="#183640"/>
+                <!-- Legs -->
+                <rect x="33" y="85" width="10" height="26" rx="5" fill="#183640"/>
+                <rect x="45" y="85" width="10" height="26" rx="5" fill="#183640"/>
+              </svg>
+            </span>
+            <strong>Transitiegids</strong>
+            <small>Vaste squad</small>
+          </button>
+
+          <button class="character-card" data-skill="dragers">
+            <span class="character-figure figure-dragers">
+              <svg viewBox="0 0 92 116" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <!-- Backpack -->
+                <rect x="55" y="42" width="22" height="36" rx="7" fill="#4f6a3d"/>
+                <rect x="55" y="38" width="22" height="8" rx="4" fill="#4a6239"/>
+                <rect x="58" y="48" width="7" height="18" rx="2" fill="rgba(255,255,255,0.22)"/>
+                <!-- Head -->
+                <circle cx="42" cy="30" r="13" fill="#183640"/>
+                <!-- Body -->
+                <rect x="29" y="45" width="27" height="34" rx="9" fill="#6d8f58"/>
+                <!-- Left arm -->
+                <rect x="16" y="47" width="14" height="8" rx="4" fill="#183640"/>
+                <!-- Right arm to backpack -->
+                <rect x="55" y="52" width="7" height="8" rx="3.5" fill="#183640"/>
+                <!-- Legs -->
+                <rect x="31" y="76" width="10" height="34" rx="5" fill="#183640"/>
+                <rect x="43" y="76" width="10" height="34" rx="5" fill="#183640"/>
+              </svg>
+            </span>
+            <strong>Dragers</strong>
+            <small>Variabele squad</small>
+          </button>
+
+          <button class="character-card" data-skill="verkenners">
+            <span class="character-figure figure-verkenners">
+              <svg viewBox="0 0 92 116" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <!-- Binoculars -->
+                <rect x="26" y="30" width="17" height="13" rx="6.5" fill="#183640"/>
+                <rect x="49" y="30" width="17" height="13" rx="6.5" fill="#183640"/>
+                <circle cx="34.5" cy="36.5" r="5" fill="rgba(47,123,132,0.72)"/>
+                <circle cx="57.5" cy="36.5" r="5" fill="rgba(47,123,132,0.72)"/>
+                <rect x="41" y="32" width="10" height="9" rx="2" fill="#183640"/>
+                <!-- Arms up holding binoculars -->
+                <path d="M32,50 L30,43" stroke="#183640" stroke-width="8" stroke-linecap="round" fill="none"/>
+                <path d="M60,50 L62,43" stroke="#183640" stroke-width="8" stroke-linecap="round" fill="none"/>
+                <!-- Head -->
+                <circle cx="46" cy="52" r="13" fill="#183640"/>
+                <!-- Body -->
+                <rect x="33" y="67" width="26" height="32" rx="9" fill="#386f77"/>
+                <!-- Legs -->
+                <rect x="35" y="96" width="10" height="18" rx="5" fill="#183640"/>
+                <rect x="47" y="96" width="10" height="18" rx="5" fill="#183640"/>
+              </svg>
+            </span>
+            <strong>Verkenners</strong>
+            <small>Vaste squad</small>
+          </button>
+
+          <button class="character-card" data-skill="aanjagers">
+            <span class="character-figure figure-aanjagers">
+              <svg viewBox="0 0 92 116" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <!-- Energy rays -->
+                <line x1="7" y1="50" x2="21" y2="56" stroke="#f1bf69" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+                <line x1="5" y1="63" x2="20" y2="63" stroke="#f1bf69" stroke-width="2.5" stroke-linecap="round" opacity="0.55"/>
+                <line x1="7" y1="76" x2="21" y2="70" stroke="#f1bf69" stroke-width="2.5" stroke-linecap="round" opacity="0.35"/>
+                <!-- Megaphone body -->
+                <polygon points="22,50 37,57 37,71 22,78" fill="#df7440"/>
+                <!-- Megaphone bell -->
+                <polygon points="5,44 22,50 22,78 5,84" fill="#183640" opacity="0.82"/>
+                <!-- Head -->
+                <circle cx="50" cy="35" r="13" fill="#183640"/>
+                <!-- Arm to megaphone -->
+                <path d="M37,55 L34,57" stroke="#183640" stroke-width="8" stroke-linecap="round" fill="none"/>
+                <!-- Body -->
+                <rect x="37" y="50" width="26" height="34" rx="9" fill="#e4a952"/>
+                <!-- Right arm raised -->
+                <path d="M63,55 C68,48 72,42 74,34" stroke="#183640" stroke-width="8" stroke-linecap="round" fill="none"/>
+                <!-- Lightning bolt -->
+                <polygon points="76,26 70,37 76,37 70,48 79,35 73,35" fill="#f1bf69"/>
+                <!-- Legs -->
+                <rect x="39" y="81" width="10" height="29" rx="5" fill="#183640"/>
+                <rect x="51" y="81" width="10" height="29" rx="5" fill="#183640"/>
+              </svg>
+            </span>
+            <strong>Aanjagers</strong>
+            <small>Vaste squad</small>
+          </button>
+
+        </section>
+      </section>
+
+      <section class="skill-panel" aria-live="polite">
+        <div class="skill-head">
+          <button class="panel-close" type="button" data-close-panel="skill" aria-label="Sluit skills-paneel">×</button>
+          <p class="eyebrow" id="skill-kicker">Rolskills</p>
+          <h2 id="skill-title">Kompasgroep</h2>
+          <p id="skill-text">
+            De kompasgroep houdt de koers vast en verbindt strategische keuzes
+            met de dagelijkse expeditie.
+          </p>
+        </div>
+        <div class="skill-columns">
+          <section>
+            <h3>Essentiële skills</h3>
+            <ul id="skill-list"></ul>
+          </section>
+          <section>
+            <h3>Waar let je op?</h3>
+            <p id="skill-note"></p>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
