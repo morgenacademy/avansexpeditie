@@ -214,11 +214,11 @@ button {
 .expedition-chain {
   display: flex;
   align-items: flex-end;
-  gap: 0.55rem;
+  gap: 0.7rem;
   min-height: 196px;
   margin-top: 1rem;
-  padding: 1.2rem 0.2rem 0.15rem;
-  overflow: hidden;
+  padding: 1.6rem 0.2rem 0.15rem;
+  overflow: visible;
 }
 
 .future-peak {
@@ -227,13 +227,15 @@ button {
   flex: 1;
   flex-direction: column;
   justify-content: flex-end;
+  align-items: center;
   min-width: 0;
-  padding: 1rem 0.55rem 0.7rem;
+  padding: 1rem 0.7rem 0.75rem;
   border-radius: 24px 24px 18px 18px;
   color: white;
   background: linear-gradient(180deg, rgba(103, 167, 174, 0.38), rgba(33, 88, 99, 0.95));
   clip-path: polygon(50% 0%, 88% 48%, 100% 100%, 0% 100%, 12% 48%);
   box-shadow: inset 0 -18px 28px rgba(12, 33, 40, 0.25);
+  text-align: center;
 }
 
 .future-peak::before {
@@ -267,30 +269,40 @@ button {
 }
 
 .future-peak-year {
+  position: absolute;
+  top: -0.7rem;
+  left: 50%;
   display: inline-flex;
-  align-self: flex-start;
-  margin-bottom: 0.38rem;
+  margin-bottom: 0;
   padding: 0.18rem 0.42rem;
   border-radius: 999px;
-  font-size: 0.63rem;
+  font-size: 0.58rem;
   font-weight: 800;
   letter-spacing: 0.05em;
+  line-height: 1;
   text-transform: uppercase;
   color: var(--ink);
   background: rgba(255, 248, 236, 0.9);
+  transform: translateX(-50%);
+  white-space: nowrap;
+  box-shadow: 0 8px 18px rgba(24, 54, 64, 0.08);
 }
 
 .future-peak strong {
+  width: 100%;
   font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif;
-  font-size: 0.92rem;
-  line-height: 1.15;
+  font-size: 0.82rem;
+  line-height: 1.12;
+  text-wrap: balance;
 }
 
 .future-peak small {
+  width: 100%;
   margin-top: 0.18rem;
-  font-size: 0.74rem;
-  line-height: 1.25;
+  font-size: 0.67rem;
+  line-height: 1.2;
   color: rgba(255, 248, 236, 0.86);
+  text-wrap: balance;
 }
 
 .future-peak-current {
@@ -415,15 +427,16 @@ button {
 }
 
 .totem {
-  top: 1.7%;
+  top: 0.8%;
   left: 50%;
-  width: 188px;
+  width: 176px;
   padding: 0.85rem 0.95rem 0.8rem;
   border-radius: 22px;
   transform: translateX(-50%);
   overflow: visible;
   align-items: center;
   text-align: center;
+  z-index: 7;
 }
 
 .totem::before {
@@ -516,21 +529,21 @@ button {
 
 .camp-start { left: 10%; bottom: 6%; }
 .camp-zero { left: 20%; bottom: 22%; width: 214px; }
-.camp-year-one { left: 33%; bottom: 36%; }
-.camp-year-two { left: 40%; bottom: 50%; }
-.camp-year-three { left: 45%; bottom: 61%; }
-.camp-year-four { left: 49%; bottom: 72%; }
-.camp-year-five { left: 52%; bottom: 81%; }
-.camp-summit { left: 55%; bottom: 88%; }
+.camp-year-one { left: 30.5%; bottom: 34%; }
+.camp-year-two { left: 37%; bottom: 46.5%; }
+.camp-year-three { left: 42%; bottom: 57.5%; }
+.camp-year-four { left: 45.5%; bottom: 67.5%; }
+.camp-year-five { left: 48%; bottom: 76.5%; }
+.camp-summit { left: 57%; bottom: 85%; }
 
 .campfire-start { left: 19.5%; bottom: 11%; }
-.campfire-zero { left: 31.5%; bottom: 31%; }
-.campfire-year-one { left: 43%; bottom: 44%; }
-.campfire-year-two { left: 49%; bottom: 55%; }
-.campfire-year-three { left: 53%; bottom: 66%; }
-.campfire-year-four { left: 56%; bottom: 77%; }
-.campfire-year-five { left: 58%; bottom: 84.5%; }
-.campfire-summit { left: 60%; bottom: 90.5%; }
+.campfire-zero { left: 30%; bottom: 28%; }
+.campfire-year-one { left: 39%; bottom: 40.5%; }
+.campfire-year-two { left: 44.5%; bottom: 51.5%; }
+.campfire-year-three { left: 48%; bottom: 62%; }
+.campfire-year-four { left: 51%; bottom: 72%; }
+.campfire-year-five { left: 53%; bottom: 80%; }
+.campfire-summit { left: 58.5%; bottom: 87.2%; }
 
 .marker {
   width: 205px;
@@ -990,24 +1003,24 @@ button {
     left: 50%;
   }
 
-  .totem { top: 2%; left: 50%; }
+  .totem { top: 1.2%; left: 50%; }
   .camp-start { left: 9%; bottom: 6%; }
   .camp-zero { left: 17%; bottom: 20%; width: 198px; }
-  .camp-year-one { left: 30%; bottom: 34%; }
-  .camp-year-two { left: 34.5%; bottom: 48%; }
-  .camp-year-three { left: 39%; bottom: 58.5%; }
-  .camp-year-four { left: 42.5%; bottom: 69%; }
-  .camp-year-five { left: 45.5%; bottom: 78%; }
-  .camp-summit { left: 48%; bottom: 85%; }
+  .camp-year-one { left: 28%; bottom: 32%; }
+  .camp-year-two { left: 32.5%; bottom: 44%; }
+  .camp-year-three { left: 36.5%; bottom: 55%; }
+  .camp-year-four { left: 40%; bottom: 65%; }
+  .camp-year-five { left: 42.5%; bottom: 73.5%; }
+  .camp-summit { left: 49%; bottom: 82.5%; }
 
   .campfire-start { left: 17.5%; bottom: 11%; }
-  .campfire-zero { left: 28.5%; bottom: 29.5%; }
-  .campfire-year-one { left: 38%; bottom: 42.5%; }
-  .campfire-year-two { left: 43%; bottom: 53%; }
-  .campfire-year-three { left: 46.5%; bottom: 63.5%; }
-  .campfire-year-four { left: 49%; bottom: 74%; }
-  .campfire-year-five { left: 50.5%; bottom: 81%; }
-  .campfire-summit { left: 52%; bottom: 87.5%; }
+  .campfire-zero { left: 27.5%; bottom: 27%; }
+  .campfire-year-one { left: 36%; bottom: 38.5%; }
+  .campfire-year-two { left: 40%; bottom: 49%; }
+  .campfire-year-three { left: 43%; bottom: 59.5%; }
+  .campfire-year-four { left: 45.5%; bottom: 69.5%; }
+  .campfire-year-five { left: 47.5%; bottom: 76.5%; }
+  .campfire-summit { left: 50.5%; bottom: 84.2%; }
 
   .rhythm-panel {
     left: 4%;
@@ -1078,23 +1091,23 @@ button {
 
   .camp-start { left: 7%; bottom: 6%; }
   .camp-zero { left: 10%; bottom: 16%; width: 188px; }
-  .camp-year-one { left: 22%; bottom: 29%; }
-  .camp-year-two { left: 25%; bottom: 42%; }
-  .camp-year-three { left: 28%; bottom: 51%; }
-  .camp-year-four { left: 31%; bottom: 60%; }
-  .camp-year-five { left: 33%; bottom: 68%; }
-  .camp-summit { left: 35%; bottom: 75%; }
+  .camp-year-one { left: 20%; bottom: 27%; }
+  .camp-year-two { left: 23%; bottom: 38.5%; }
+  .camp-year-three { left: 26%; bottom: 47.5%; }
+  .camp-year-four { left: 28.5%; bottom: 56.5%; }
+  .camp-year-five { left: 30.5%; bottom: 64%; }
+  .camp-summit { left: 35.5%; bottom: 72.5%; }
 
-  .totem { left: 50%; top: 4.4%; }
+  .totem { left: 50%; top: 2.8%; }
 
   .campfire-start { left: 13.5%; bottom: 10.5%; }
-  .campfire-zero { left: 22.5%; bottom: 25.5%; }
-  .campfire-year-one { left: 28%; bottom: 37.5%; }
-  .campfire-year-two { left: 31.5%; bottom: 46.5%; }
-  .campfire-year-three { left: 34%; bottom: 55.5%; }
-  .campfire-year-four { left: 36%; bottom: 64.5%; }
-  .campfire-year-five { left: 37.5%; bottom: 71.5%; }
-  .campfire-summit { left: 39%; bottom: 78%; }
+  .campfire-zero { left: 21.5%; bottom: 23.5%; }
+  .campfire-year-one { left: 26%; bottom: 34.5%; }
+  .campfire-year-two { left: 29%; bottom: 43.2%; }
+  .campfire-year-three { left: 31.5%; bottom: 51.8%; }
+  .campfire-year-four { left: 33.5%; bottom: 60.5%; }
+  .campfire-year-five { left: 35%; bottom: 67.2%; }
+  .campfire-summit { left: 39%; bottom: 74%; }
 
   .rhythm-panel {
     width: calc(100% - 2rem);
@@ -1126,19 +1139,20 @@ button {
   }
 
   .future-peak {
-    padding: 0.72rem 0.28rem 0.52rem;
+    padding: 0.78rem 0.36rem 0.52rem;
   }
 
   .future-peak strong {
-    font-size: 0.74rem;
+    font-size: 0.68rem;
   }
 
   .future-peak small {
-    font-size: 0.62rem;
+    font-size: 0.58rem;
   }
 
   .future-peak-year {
-    font-size: 0.54rem;
+    top: -0.55rem;
+    font-size: 0.49rem;
   }
 
   .future-peak-current { height: 124px; }
