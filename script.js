@@ -68,12 +68,12 @@ const storyContent = {
   },
   "year-one": {
     kicker: "Jaar 1",
-    title: "Pilot jaar 1",
+    title: "Camp 1",
     exampleTitle: "Voorbeeld: energietransitie",
     text:
-      "In jaar 1 gaat de expeditie echt de berg op. Dit eerste jaar is een pilot: je ontwerpt verder onderweg, zet proefstappen in de praktijk, haalt signalen op, leert en rondt het jaar bewust af. Het doel is niet om meteen het hele model dicht te timmeren, maar om een eerste begaanbare route te maken. Daarbij kies je ook bewust met welke squad je deze eerste klim maakt.",
+      "In jaar 1 gaat de expeditie echt de berg op. Camp 1 is de eerste echte etappe: je ontwerpt verder onderweg, zet proefstappen in de praktijk, haalt signalen op, leert en rondt het jaar bewust af. Het doel is niet om meteen het hele model dicht te timmeren, maar om een eerste begaanbare route te maken. Daarbij kies je ook bewust met welke squad je deze eerste klim maakt.",
     actions: [
-      "Voer de eerste pilot uit in een afgebakende setting met duidelijke begeleiding.",
+      "Voer Camp 1 uit in een afgebakende setting met duidelijke begeleiding.",
       "Laat studenten, docententeams, onderzoekers en partners samenwerken aan een echte praktijkvraag.",
       "Kies bewust welke mensen in deze eerste squad meegaan en hoe zij samen landen in de expeditie.",
       "Observeer onderweg wat werkt, wat schuurt en wat je anders moet ontwerpen.",
@@ -82,7 +82,7 @@ const storyContent = {
     ],
     why: [
       "Pas in het eerste jaar zie je of de expeditie echt landt in onderwijs, onderzoek en werkveld.",
-      "Een pilot maakt aannames zichtbaar die op papier nog logisch leken.",
+      "Een eerste camp maakt aannames zichtbaar die op papier nog logisch leken.",
       "Dit jaar levert het eerste bewijs en de eerste taal op voor de jaren die volgen."
     ],
     roles: [
@@ -94,19 +94,19 @@ const storyContent = {
     risk:
       "Zonder een echte eerste jaarronde blijft de expeditie vooral een belofte zonder praktijkbewijs.",
     example:
-      "In jaar 1 draaien jullie die eerste pilot echt in de wijk. Studenten maken woning- en straatanalyses, brengen piekbelasting in beeld, vergelijken scenario's zoals isoleren, hybride warmtepompen, slim laden en buurtbatterijen, en toetsen met bewoners wat acceptabel en betaalbaar is. Onderzoekers volgen waar samenwerking vastloopt en welke aannames niet kloppen. Tegelijk leer je ook welke studenten en professionals in deze eerste squad goed tot hun recht komen en waar later andere expertise nodig is. Aan het eind van het jaar ligt er geen masterplan, maar wel een eerste routekaart die in de praktijk getest is."
+      "In jaar 1 draaien jullie Camp 1 echt in de wijk. Studenten maken woning- en straatanalyses, brengen piekbelasting in beeld, vergelijken scenario's zoals isoleren, hybride warmtepompen, slim laden en buurtbatterijen, en toetsen met bewoners wat acceptabel en betaalbaar is. Onderzoekers volgen waar samenwerking vastloopt en welke aannames niet kloppen. Tegelijk leer je ook welke studenten en professionals in deze eerste squad goed tot hun recht komen en waar later andere expertise nodig is. Aan het eind van het jaar ligt er geen masterplan, maar wel een eerste routekaart die in de praktijk getest is."
   },
   "year-two": {
     kicker: "Jaar 2",
-    title: "Pilot jaar 2",
+    title: "Camp 2",
     exampleTitle: "Voorbeeld: energietransitie",
     text:
-      "In jaar 2 start je niet opnieuw vanaf nul. Je neemt de lessen van jaar 1 mee en klimt een stukje verder. Ook dit jaar is weer een pilot: je scherpt aan, probeert opnieuw, leert opnieuw en rondt opnieuw af. Zo wordt de expeditie elk jaar iets sterker en preciezer. Daarbij kies je opnieuw met welke squad je verdergaat: sommige mensen gaan terug, anderen sluiten juist nu aan.",
+      "In jaar 2 start je niet opnieuw vanaf nul. Je neemt de lessen van jaar 1 mee en klimt een stukje verder. Ook dit jaar is weer een camp: je scherpt aan, probeert opnieuw, leert opnieuw en rondt opnieuw af. Zo wordt de expeditie elk jaar iets sterker en preciezer. Daarbij kies je opnieuw met welke squad je verdergaat: sommige mensen gaan terug, anderen sluiten juist nu aan.",
     actions: [
       "Vertaal lessen uit jaar 1 naar een scherpere opzet voor jaar 2.",
       "Pas rollen, planning, partners en leerdoelen aan op basis van wat echt is gebeurd.",
       "Bepaal welke mensen uit jaar 1 aanblijven, wie teruggaat en welke nieuwe studenten of partners nu mee op expeditie gaan.",
-      "Draai een tweede pilot die gerichter is dan de eerste.",
+      "Draai Camp 2 gerichter dan Camp 1.",
       "Maak tussentijds zichtbaar welke verbeteringen optreden.",
       "Rond het jaar af en bepaal wat jaar 3 moet overnemen."
     ],
@@ -128,10 +128,10 @@ const storyContent = {
   },
   "year-three": {
     kicker: "Jaar 3",
-    title: "Pilot jaar 3",
+    title: "Camp 3",
     exampleTitle: "Voorbeeld: energietransitie",
     text:
-      "In jaar 3 is de route herkenbaarder, maar nog steeds lerend. Je draait opnieuw een pilot, nu met meer vertrouwen in wat werkt. Tegelijk blijf je ruimte houden om onderdelen aan te scherpen, want ook halverwege de expeditie leer je nog bij. Dat geldt niet alleen voor de scope, maar ook voor de vraag wie in deze fase het beste mee de berg op kan.",
+      "In jaar 3 is de route herkenbaarder, maar nog steeds lerend. Je draait opnieuw een camp, nu met meer vertrouwen in wat werkt. Tegelijk blijf je ruimte houden om onderdelen aan te scherpen, want ook halverwege de expeditie leer je nog bij. Dat geldt niet alleen voor de scope, maar ook voor de vraag wie in deze fase het beste mee de berg op kan.",
     actions: [
       "Draai een derde jaarronde op basis van de opgebouwde aanpak.",
       "Verbind losse opbrengsten tot een herkenbare manier van werken.",
@@ -141,7 +141,7 @@ const storyContent = {
     ],
     why: [
       "Jaar 3 helpt om van losse ervaringen naar een herkenbaar expeditieritme te groeien.",
-      "De pilot houdt ruimte voor leren, ook als er meer mensen aanhaken.",
+      "Dit camp houdt ruimte voor leren, ook als er meer mensen aanhaken.",
       "Hier wordt zichtbaar welke elementen voldoende stevig zijn om mee verder te bouwen."
     ],
     roles: [
@@ -157,10 +157,10 @@ const storyContent = {
   },
   "year-four": {
     kicker: "Jaar 4",
-    title: "Pilot jaar 4",
+    title: "Camp 4",
     exampleTitle: "Voorbeeld: energietransitie",
     text:
-      "In jaar 4 klim je verder met een aanpak die al meerdere keren is beproefd. Ook dit jaar blijft een pilot: je past toe, leert door, scherpt bij en markeert het einde van de jaarronde. Zo voorkom je dat de expeditie te vroeg verstijft. Je kiest dus opnieuw niet alleen de volgende stap in de aanpak, maar ook welke squad daarbij past.",
+      "In jaar 4 klim je verder met een aanpak die al meerdere keren is beproefd. Ook dit jaar blijft een camp: je past toe, leert door, scherpt bij en markeert het einde van de jaarronde. Zo voorkom je dat de expeditie te vroeg verstijft. Je kiest dus opnieuw niet alleen de volgende stap in de aanpak, maar ook welke squad daarbij past.",
     actions: [
       "Gebruik wat al werkt in een stevigere jaarronde.",
       "Onderzoek welke onderdelen inmiddels breder inzetbaar zijn.",
@@ -186,17 +186,17 @@ const storyContent = {
   },
   "year-five": {
     kicker: "Jaar 5",
-    title: "Pilot jaar 5",
+    title: "Camp 5",
     exampleTitle: "Voorbeeld: energietransitie",
     text:
-      "Jaar 5 is de laatste pilot van de expeditie. Ook nu doorloop je dezelfde beweging: ontwerpen waar nodig, uitvoeren, leren, afronden. Het verschil is dat dit jaar ook al vooruitkijkt naar wat na deze expeditie moet blijven bestaan en wat bewust stopt. Ook de samenstelling van de squad is hier een expliciete keuze: wie rondt af, wie draagt over en wie loopt nog mee richting de landing.",
+      "Jaar 5 is het laatste camp van de expeditie. Ook nu doorloop je dezelfde beweging: ontwerpen waar nodig, uitvoeren, leren, afronden. Het verschil is dat dit jaar ook al vooruitkijkt naar wat na deze expeditie moet blijven bestaan en wat bewust stopt. Ook de samenstelling van de squad is hier een expliciete keuze: wie rondt af, wie draagt over en wie loopt nog mee richting de landing.",
     actions: [
       "Draai de laatste jaarronde met focus op opbrengst en overdraagbaarheid.",
       "Maak zichtbaar wat in vijf jaar echt geleerd en opgebouwd is.",
       "Kies bewust welke mensen deze laatste etappe afmaken en hoe kennis wordt overgedragen aan mensen die daarna verdergaan.",
       "Bepaal welke onderdelen duurzaam door kunnen lopen.",
       "Leg vast wat nog een vervolgexpeditie nodig heeft.",
-      "Rond de vijfde pilot bewust af als opmaat naar de eindmarkering."
+      "Rond Camp 5 bewust af als opmaat naar de eindmarkering."
     ],
     why: [
       "Jaar 5 verbindt de laatste leerbeweging met de afronding van de hele expeditie.",
@@ -211,7 +211,7 @@ const storyContent = {
     risk:
       "Zonder bewuste vijfde jaarronde voelt het einde abrupt en blijft onduidelijk wat nu echt is afgerond.",
     example:
-      "In jaar 5 draait de pilot nog één keer, maar nu met nadruk op overdraagbaarheid. Je laat bijvoorbeeld zien welke wijkaanpak inmiddels standaard inzetbaar is, welke onderwijsmodules blijvend in het curriculum passen, welke dataroutines met gemeente en netbeheerder werken en welke rol bewonersparticipatie moet krijgen. Tegelijk organiseer je bewust hoe vertrekkende studenten en partners hun kennis overdragen en wie nog meeloopt richting een vervolg. Wat nog niet stevig genoeg is, label je niet als succes, maar als vraag voor een volgende expeditie."
+      "In jaar 5 draait Camp 5 nog één keer, maar nu met nadruk op overdraagbaarheid. Je laat bijvoorbeeld zien welke wijkaanpak inmiddels standaard inzetbaar is, welke onderwijsmodules blijvend in het curriculum passen, welke dataroutines met gemeente en netbeheerder werken en welke rol bewonersparticipatie moet krijgen. Tegelijk organiseer je bewust hoe vertrekkende studenten en partners hun kennis overdragen en wie nog meeloopt richting een vervolg. Wat nog niet stevig genoeg is, label je niet als succes, maar als vraag voor een volgende expeditie."
   },
   summit: {
     kicker: "Na 5 jaar",
@@ -302,7 +302,7 @@ const storyContent = {
       "Onderwijs loopt in cycli van semesters, minors en projecten en levert menskracht, leren en output. Onderzoek loopt trager, meerjarig en thematisch en levert kennis, methoden en duiding. Het werkveld is continu aanwezig en levert vraagstukken, data, context en relevantie. In elke jaarronde komen deze drie punten als een driehoek bij elkaar, met de student in het midden.",
     actions: [
       "Werk met een vast expeditieritme per jaar: starten, uitvoeren, kampvuur, afronden en opnieuw beginnen.",
-      "Koppel onderwijscycli aan afgebakende pilots, zodat studenten helder kunnen instappen en afronden.",
+      "Koppel onderwijscycli aan afgebakende camps, zodat studenten helder kunnen instappen en afronden.",
       "Laat onderzoek over meerdere camps doorlopen en plan vaste momenten waarop inzichten terugkomen in de expeditie.",
       "Spreek met werkveldpartners vooraf af wanneer zij nodig zijn voor vraagarticulatie, feedback, testen en besluitvorming.",
       "Maak per jaarronde expliciet wat de bijdrage is van student, docententeam, onderzoekers en werkveldpartner."
