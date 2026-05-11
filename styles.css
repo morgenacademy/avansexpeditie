@@ -515,9 +515,8 @@ button {
 }
 
 .camp-start { left: 10%; bottom: 6%; }
-.camp-zero { left: 18%; bottom: 17%; }
-.camp-ploeg { left: 26%; bottom: 28%; }
-.camp-year-one { left: 34%; bottom: 39%; }
+.camp-zero { left: 20%; bottom: 22%; width: 214px; }
+.camp-year-one { left: 33%; bottom: 36%; }
 .camp-year-two { left: 40%; bottom: 50%; }
 .camp-year-three { left: 45%; bottom: 61%; }
 .camp-year-four { left: 49%; bottom: 72%; }
@@ -525,8 +524,7 @@ button {
 .camp-summit { left: 55%; bottom: 88%; }
 
 .campfire-start { left: 19.5%; bottom: 11%; }
-.campfire-zero { left: 27.5%; bottom: 22%; }
-.campfire-one { left: 35.5%; bottom: 33%; }
+.campfire-zero { left: 31.5%; bottom: 31%; }
 .campfire-year-one { left: 43%; bottom: 44%; }
 .campfire-year-two { left: 49%; bottom: 55%; }
 .campfire-year-three { left: 53%; bottom: 66%; }
@@ -994,9 +992,8 @@ button {
 
   .totem { top: 2%; left: 50%; }
   .camp-start { left: 9%; bottom: 6%; }
-  .camp-zero { left: 15.5%; bottom: 16.5%; }
-  .camp-ploeg { left: 22%; bottom: 27%; }
-  .camp-year-one { left: 28.5%; bottom: 37.5%; }
+  .camp-zero { left: 17%; bottom: 20%; width: 198px; }
+  .camp-year-one { left: 30%; bottom: 34%; }
   .camp-year-two { left: 34.5%; bottom: 48%; }
   .camp-year-three { left: 39%; bottom: 58.5%; }
   .camp-year-four { left: 42.5%; bottom: 69%; }
@@ -1004,8 +1001,7 @@ button {
   .camp-summit { left: 48%; bottom: 85%; }
 
   .campfire-start { left: 17.5%; bottom: 11%; }
-  .campfire-zero { left: 24.5%; bottom: 21.5%; }
-  .campfire-one { left: 31.5%; bottom: 32%; }
+  .campfire-zero { left: 28.5%; bottom: 29.5%; }
   .campfire-year-one { left: 38%; bottom: 42.5%; }
   .campfire-year-two { left: 43%; bottom: 53%; }
   .campfire-year-three { left: 46.5%; bottom: 63.5%; }
@@ -1081,9 +1077,8 @@ button {
   }
 
   .camp-start { left: 7%; bottom: 6%; }
-  .camp-zero { left: 11%; bottom: 15%; }
-  .camp-ploeg { left: 16%; bottom: 24%; }
-  .camp-year-one { left: 21%; bottom: 33%; }
+  .camp-zero { left: 10%; bottom: 16%; width: 188px; }
+  .camp-year-one { left: 22%; bottom: 29%; }
   .camp-year-two { left: 25%; bottom: 42%; }
   .camp-year-three { left: 28%; bottom: 51%; }
   .camp-year-four { left: 31%; bottom: 60%; }
@@ -1093,8 +1088,7 @@ button {
   .totem { left: 50%; top: 4.4%; }
 
   .campfire-start { left: 13.5%; bottom: 10.5%; }
-  .campfire-zero { left: 18.5%; bottom: 19.5%; }
-  .campfire-one { left: 23.5%; bottom: 28.5%; }
+  .campfire-zero { left: 22.5%; bottom: 25.5%; }
   .campfire-year-one { left: 28%; bottom: 37.5%; }
   .campfire-year-two { left: 31.5%; bottom: 46.5%; }
   .campfire-year-three { left: 34%; bottom: 55.5%; }

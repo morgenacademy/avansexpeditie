@@ -13,13 +13,11 @@ const storyContent = {
       "De expeditie moet maatschappelijk en regionaal relevant zijn.",
       "Expedities moeten aansluiten bij vraagstukken die leven in de praktijk.",
       "Thema's moeten daarom herkenbaar zijn voor regionale partners en bijdragen aan actuele maatschappelijke opgaven.",
-      "Opleidingen leiden immers op voor het werkveld, waardoor een duidelijke relatie met de arbeidsmarkt noodzakelijk is.",
       "Het vraagstuk dient een gedragen vraagstuk te zijn in alle lagen van de organisatie.",
       "Maak de vlag zichtbaar: waarom is deze expeditie het waard om tijd, aandacht en energie aan te geven?",
       "Beperk het aantal expedities zodat focus voelbaar blijft.",
       "Reserveer dedicated tijd zodat mensen echt uit de dagelijkse operatie kunnen stappen.",
       "Moet geld vrijgemaakt worden.",
-      "Opleidingen leiden immers op voor het werkveld, waardoor een duidelijke relatie met de arbeidsmarkt noodzakelijk is."
     ],
     why: [
       "Een expeditieploeg beweegt rond een gedeeld verhaal en een herkenbare belofte.",
@@ -30,26 +28,26 @@ const storyContent = {
       "Kompasgroep (de toezichthouders > directeuren van het economisch domein).",
       "Expeditieleider (er moet iemand zijn die de expeditie gaat leiden).",
       "Verkenners voor buitenperspectief (werkveldpartners extern en de relatiemanagers intern).",
-      "Aanjagers uit onderwijs en onderzoek voor eerste haalbaarheid en draagvlak. Studenten ook naast de docententeams."
+      "Aanjagers uit docententeams en onderzoeksgroepen voor eerste haalbaarheid en draagvlak, met studenten als vroege dragers in de eerste verkenning."
     ],
     risk:
       "Zonder scherpe en eigenaarschap keuze wordt de berg een decor voor losse projecten in plaats van een route met betekenis en richting.",
     example:
       "Je kiest niet voor losse initiatieven rond zonnepanelen, laadpalen of netcongestie, maar voor een scherpe expeditie binnen de energietransitie: hoe helpen we Brabantse wijken betaalbaar verduurzamen terwijl het elektriciteitsnet onder druk staat? Dat vraagstuk is groot genoeg voor vijf jaar, raakt bewoners, gemeenten, woningcorporaties, netbeheerders en installateurs, en vraagt om samenwerking tussen onderwijs, onderzoek en werkveld."
   },
-  "camp-one": {
-    kicker: "Camp 1",
-    title: "Kaderen en contracteren met de expeditieploeg",
+  "camp-zero": {
+    kicker: "Camp 0",
+    title: "Landen, kaderen en contracteren",
     exampleTitle: "Voorbeeld: energietransitie",
     text:
-      "Na Camp 0 weet je welk jaarritme de expeditie gaat volgen. In Camp 1 vertaal je dat ritme naar een werkbare samenwerking met de expeditieploeg. Hier land je met de ploeg rond hetzelfde vraagstuk en maak je het hanteerbaar: je kadert waar de expeditie wel en niet over gaat, welke belofte centraal staat en hoe jullie samen werken. De kern van deze camp is dus: kaderen en contracteren.",
+      "Na de keuze voor de expeditie land je in Camp 0 met de expeditieploeg rond hetzelfde vraagstuk. Hier bepaal je de koers: waar gaat deze expeditie wel en niet over, welke belofte staat centraal en hoe werken jullie samen? Het jaarritme is ondersteunend, maar niet leidend. De kern van deze camp is dat de groep zich rond dezelfde opgave verzamelt en daar scherpe afspraken over maakt.",
     actions: [
+      "Laat de expeditieploeg landen rond een gedeeld vraagstuk en een gezamenlijke taal.",
       "Maak scherp wat binnen en buiten de expeditie valt.",
-      "Formuleer de centrale opgave en de eerste concrete deelvragen.",
-      "Leg ontwerpprincipes en eerste proefstappen vast die helpen om klein te beginnen.",
-      "Bepaal welke opleidingen, onderzoekslijnen en regionale partners hier logisch bij horen.",
+      "Formuleer de centrale opgave, de belofte en de eerste concrete deelvragen.",
+      "Bepaal welke opleidingen, onderzoekslijnen en regionale partners logisch aanhaken.",
       "Leg vast wie expeditieleider is, wie in de kernploeg zit en wie op afroep aansluit.",
-      "Spreek af op welk ritme jullie besluiten nemen, leren ophalen en bijsturen."
+      "Spreek af hoe jullie samenwerken, besluiten nemen, leren ophalen en bijsturen."
     ],
     why: [
       "Zonder goede afbakening wordt de expeditie te breed en blijft alles tegelijk belangrijk.",
@@ -60,42 +58,13 @@ const storyContent = {
       "Expeditieleider om richting, tempo en eigenaarschap te organiseren.",
       "Kompasgroep om mandaat, ruimte en bestuurlijke rugdekking te geven.",
       "Verkenners voor buitenperspectief, signalen uit het werkveld en aansluiting op de praktijk.",
-      "Aanjagers uit onderwijs en onderzoek voor haalbaarheid, draagvlak en inhoudelijke scherpte.",
-      "Relatiemanagers en regionale partners om te toetsen of het vraagstuk echt leeft."
+      "Aanjagers uit docententeams en onderzoeksgroepen voor haalbaarheid, draagvlak en inhoudelijke scherpte.",
+      "Relatiemanagers en werkveldpartners om te toetsen of het vraagstuk echt leeft."
     ],
     risk:
-      "Zonder stevig kader wordt de expeditie een brede paraplu waar van alles onder past, maar waar niemand echt op stuurt.",
+      "Zonder stevig Camp 0 wordt de expeditie een brede paraplu waar van alles onder past, maar waar niemand echt op stuurt.",
     example:
-      "In Camp 1 vertaal je het ritme uit Camp 0 naar concrete samenwerking. Je kadert dat de expeditie niet over de hele energietransitie gaat, maar over wijkverduurzaming in buurten waar netcongestie de overstap naar elektrisch verwarmen en laden bemoeilijkt. Je spreekt af dat jullie werken aan concrete handelingsperspectieven voor gemeenten, corporaties en bewoners: wat kan er al wel, vóór zware netverzwaring? Daarmee vallen thema's als mobiliteit, waterstof voor de industrie of algemene duurzaamheidsvoorlichting bewust buiten deze expeditie."
-  },
-  "camp-zero": {
-    kicker: "Camp 0",
-    title: "Start het jaarritme",
-    exampleTitle: "Voorbeeld: energietransitie",
-    text:
-      "Na de keuze voor de expeditie zet je in Camp 0 eerst het jaarritme neer waarmee je de komende vijf jaren werkt. Hier ontwerp je niet een volledig programma vooruit, maar organiseer je de beweging van een expeditiejaar: wat je gaat proberen, hoe je leert, wanneer je afrondt en hoe je het volgende jaar weer opnieuw start. Daarmee leg je de route vast waar Camp 1 en de pilotjaren vervolgens op voortbouwen.",
-    actions: [
-      "Bepaal hoe een expeditiejaar eruitziet: starten, klimmen, leren, afronden en opnieuw beginnen.",
-      "Kies wat jullie in de eerste jaarcyclus als pilot gaan uitproberen.",
-      "Formuleer leer- en succesvragen voor dat eerste jaar.",
-      "Spreek af welke partners, opleidingen, studenten en onderzoekers in deze jaarronde meedoen.",
-      "Bepaal looptijd, capaciteit, kampvuren en besluitmomenten voor het jaar."
-    ],
-    why: [
-      "Camp 0 voorkomt dat de expeditie lineair wordt ingericht alsof ontwerpen, testen en leren losse fasen zijn.",
-      "Door het jaar als pilot te organiseren, blijft de expeditie klein genoeg om te leren en groot genoeg om beweging te maken.",
-      "Hier maak je van de expeditie een herhaalbaar ritme in plaats van een eenmalig plan."
-    ],
-    roles: [
-      "Expeditieleider om het ritme scherp te zetten en keuzes af te dwingen.",
-      "Onderwijs en onderzoek om de eerste jaarronde uitvoerbaar en leerbaar te maken.",
-      "Regionale partners om te zorgen dat het jaar aanhaakt op een echte praktijkvraag.",
-      "Transitiegids om ontwerp, leerdoelen en reflectie met elkaar te verbinden."
-    ],
-    risk:
-      "Zonder Camp 0 blijft onduidelijk hoe de vijf jaren werken en vervalt de expeditie snel in een lineair stappenplan.",
-    example:
-      "In Camp 0 ontwerp je bijvoorbeeld eerst het ritme van jaar 1 rond een concrete casus in Tilburg-Noord. Je legt vast wanneer de expeditie start, waar de kampvuren zitten, hoe de pilot leert en wanneer het jaar afrondt. Ook bepaal je de leer- en succesvragen van dat jaar: welke verduurzamingsmaatregelen zijn technisch haalbaar, betaalbaar voor bewoners en uitvoerbaar binnen de ruimte op het net? Pas in Camp 1 vertaal je dat ritme naar de concrete samenwerking met studenten, opleidingen en partners."
+      "In Camp 0 kader je bijvoorbeeld dat deze expeditie niet over de hele energietransitie gaat, maar over wijkverduurzaming in buurten waar netcongestie de overstap naar elektrisch verwarmen en laden bemoeilijkt. Je spreekt af dat jullie werken aan concrete handelingsperspectieven voor gemeenten, corporaties en bewoners: wat kan er al wel, vóór zware netverzwaring? Daarmee vallen thema's als mobiliteit, waterstof voor de industrie of algemene duurzaamheidsvoorlichting bewust buiten deze expeditie. Tegelijk leg je vast wie de expeditie trekt, welke partners nodig zijn en hoe de ploeg onderweg samen koers houdt."
   },
   "year-one": {
     kicker: "Jaar 1",
@@ -148,8 +117,8 @@ const storyContent = {
     ],
     roles: [
       "Expeditieleider en transitiegids om lessen te vertalen naar nieuwe routekeuzes.",
-      "Onderwijs en onderzoek om verbeteringen praktisch te maken.",
-      "Partners uit het werkveld om te toetsen of de aanscherping relevant blijft.",
+      "Docententeams en onderzoekers om verbeteringen praktisch te maken.",
+      "Werkveldpartners om te toetsen of de aanscherping relevant blijft.",
       "Kompasgroep als er keuzes nodig zijn over ruimte, middelen of nieuwe deelnemers."
     ],
     risk:
@@ -176,8 +145,8 @@ const storyContent = {
       "Hier wordt zichtbaar welke elementen voldoende stevig zijn om mee verder te bouwen."
     ],
     roles: [
-      "Onderwijs en onderzoek om het ritme herkenbaar te maken in de praktijk.",
-      "Regionale partners om te toetsen of de aanpak echt waarde houdt.",
+      "Docententeams en onderzoekers om het ritme herkenbaar te maken in de praktijk.",
+      "Werkveldpartners en relatiemanagers om te toetsen of de aanpak echt waarde houdt.",
       "Expeditieleider en kernploeg om focus te houden.",
       "Nieuwe en terugkerende dragers die kunnen instappen in een inmiddels duidelijkere route."
     ],
@@ -207,7 +176,7 @@ const storyContent = {
     ],
     roles: [
       "Kernploeg om continuiteit te bewaren.",
-      "Onderwijs, onderzoek en werkveld om de aanpak verder te verfijnen.",
+      "Docententeams, onderzoekers en werkveldpartners om de aanpak verder te verfijnen.",
       "Kompasgroep om keuzes over schaal, borging en samenstelling van de squad te steunen."
     ],
     risk:
@@ -236,8 +205,8 @@ const storyContent = {
     ],
     roles: [
       "Expeditieleider en kompasgroep om de laatste keuzes te begeleiden.",
-      "Onderwijs, onderzoek en werkveld om te bepalen wat blijft.",
-      "Studenten en partners om opbrengsten zichtbaar te maken en goed over te dragen."
+      "Docententeams, onderzoekers en werkveldpartners om te bepalen wat blijft.",
+      "Studenten en praktijkpartners om opbrengsten zichtbaar te maken en goed over te dragen."
     ],
     risk:
       "Zonder bewuste vijfde jaarronde voelt het einde abrupt en blijft onduidelijk wat nu echt is afgerond.",
@@ -264,7 +233,7 @@ const storyContent = {
     ],
     roles: [
       "Expeditieleider en kompasgroep om de expeditie formeel af te ronden.",
-      "Onderwijs, onderzoek en werkveld om te bepalen wat wordt geborgd en wat doorleeft.",
+      "Docententeams, onderzoekers en werkveldpartners om te bepalen wat wordt geborgd en wat doorleeft.",
       "Studenten en docententeams om zichtbaar te maken wat deze expeditie heeft betekend.",
       "Nieuwe trekkers of partners als er een vervolgexpeditie nodig is."
     ],
@@ -319,7 +288,7 @@ const storyContent = {
       "Expeditieleider als hoeder van de richting",
       "Transitiegids als begeleider van het gesprek",
       "Verkenners en dragers met verschillende perspectieven",
-      "Onderwijs, onderzoek en regio rond hetzelfde vraagstuk"
+      "Docententeams, onderzoekers en werkveldpartners die op dit vraagstuk een rol hebben"
     ],
     risk:
       "Zonder kampvuur ga je door op routine, wordt leren impliciet en mis je de gezamenlijke wijsheid die nodig is om goed verder te klimmen."
@@ -344,9 +313,9 @@ const storyContent = {
       "Kampvuren en basecamps zijn de momenten waarop verschillende ritmes weer één richting vinden."
     ],
     roles: [
-      "Onderwijs",
-      "Onderzoek",
-      "Werkveld",
+      "Docententeams die onderwijscycli en studentinzet dragen",
+      "Onderzoekers die de meerjarige kennisopbouw bewaken",
+      "Werkveldpartners die praktijkritme, context en besluitmomenten inbrengen",
       "Expeditieleider en transitiegids"
     ],
     risk:
